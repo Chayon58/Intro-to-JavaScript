@@ -13,3 +13,9 @@ sum = w+p;
 console.log(sum)
 console.log(money);
 console.log(p);
+
+
+var age = 17;
+age = 35;
+
+console.log(age);
