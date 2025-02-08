@@ -27,4 +27,13 @@ for (const subArray of nestedArray) {
     }
 }
 
+const objectArray = [
+    { name: 'John', age: 25 },
+    { name: 'Mary', age: 30 },
+    { name: 'Tom', age: 28 }
+];
 
+for (const person of objectArray) {
+    console.log(person.name);
+    console.log(person.age);
+}
