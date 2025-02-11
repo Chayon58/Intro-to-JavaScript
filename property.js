@@ -14,3 +14,9 @@ const person = {
 // console.log(person.profession)
 const income = person.salary;
 // console.log(income)
+
+// bracket Notation 
+// third bracket diye access kora
+console.log(person['age'])
+const boyos = person['age']
+console.log(boyos)
