@@ -25,5 +25,11 @@ console.log(boyos)
 // console.log(person.'fav places')
 console.log(person['fav places'])
 
-const keyName = 'profession';
-console.log(person[keyName])
+const propName = 'profession';
+person['propName'] = 'devops';
+console.log(person)
+
+person.salary = 30000;
+person['age']= 26;
+person['fav places'] = ['bandorban', 'saintmartin', 'kuakata', 'coxsbazar']
+console.log(person)
