@@ -7,5 +7,10 @@ const person = {
     'fav places': ['bandorban', 'saintmartin', 'kuakata']
 }
 
- console.log(person)
- console.log(person.profession)
+// console.log(person)
+
+// dot notation
+// dot symbol diye object er property er value access kora
+// console.log(person.profession)
+const income = person.salary;
+// console.log(income)
