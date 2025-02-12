@@ -24,6 +24,8 @@ square(12);
 square(5);
 square(405);
 
+console.log('-----------------------------------------------------------------'); 
+
 function add(num1,num2){
     const sum = num1 + num2;
     console.log('sum of the two numbers is: ', sum);
@@ -32,6 +34,7 @@ function add(num1,num2){
 add(5, 71);
 add(65, 31);
 
+console.log('-----------------------------------------------------------------'); 
 function addAll(a, b, c, d, e) {
     const total = a + b + c + d + e;
     console.log(a, b, c, d, e);
