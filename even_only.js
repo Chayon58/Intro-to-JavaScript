@@ -47,3 +47,5 @@ function sumOfEvenNumbersOnly(numbers)
 
 const sum1 = sumOfEvenNumbersOnly(numbers);
 console.log('sum of the even numbers is', sum1);
+
+console.log('-----------------------------------------------------------------');
