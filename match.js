@@ -23,7 +23,7 @@ const products = [
 function matchproducts(products, search) {
     const match =[]
   for (const product of products) {
-    if (product.name.includes(search)) {
+    if (product.name.toLowercase().includes(search.toLowercase())) {
       match.push(product);
     }
     return match;
@@ -31,3 +31,5 @@ function matchproducts(products, search) {
 
 const result = matchproducts(products, 'phone');
 console.log(result);
+
+}
